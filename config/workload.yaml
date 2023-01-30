@@ -6,6 +6,7 @@ metadata:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: angular-frontend
     apps.tanzu.vmware.com/has-tests: "true"
+  namespace: ns-demo
 spec:
   params:
     - name: annotations

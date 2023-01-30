@@ -4,6 +4,7 @@ metadata:
   name: angular-test-pipeline
   labels:
     apps.tanzu.vmware.com/pipeline: test-angular
+  namespace: ns-demo
 spec:
   params:
     - name: source-url
